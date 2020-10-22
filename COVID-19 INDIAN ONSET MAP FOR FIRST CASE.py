@@ -157,7 +157,7 @@ def plot_map(sf, x_lim=None, y_lim=None, figsize=(11, 10)):
                   va="center", ha="left",
                   bbox=dict(boxstyle="Square", fc="skyblue"),
                   arrowprops=dict(arrowstyle="->"))
-    plt.text(75, 37.5, "ONSET INDIAN MAP OF FIRST CASE COVID 19", fontsize=16,fontweight="bold")
+    plt.text(70, 37.5, "ONSET INDIAN MAP OF FIRST CASE COVID-19", fontsize=16,fontweight="bold")
     id = 0
     for shape in sf.shapeRecords():
         x = [i[0] for i in shape.shape.points[:]]
